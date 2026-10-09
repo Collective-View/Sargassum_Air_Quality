@@ -5,18 +5,20 @@ Pipeline automatizado en Python para la unión de bases de dato provenientes de 
 
 ## El proyecto se estructura de la siguiente manera
 ```text
-meteo_data_pipeline/
+SAQ/
 |
 |---.venv/                          # Entorno virtual gestionado por uv 
+|--- docs/
+|     |--- Manual_uv.pdf
 |--- data/                          # Almacenamiento de resultados y metadatos 
-|     |--- 2026-10-07_Chetumal.csv  # Archivo csv final
-|     |--- metadato_. . ._Chetumal.txt #Diccionario de metadatos
+|     |--- 20261007_Chetumal      # Carpeta de almacenamiento de datos
+|           |--- data.csv           # ------> Conjunto de datos 
+|           |--- metadata.txt       # ------> Metadatos
 |--- src/                           # Contiene el codigo fuente del núcle del pipeline
 |     |--- meteo_data_pipeline/
 |          |--- __init.py
-|          |--- tools.py            # Funciones utilizadas como herramientas de preprocesamiento
+|          |--- main.py            # Script principal 
 |--- pyproject.toml                 # Configuración del proyecto y dependencias de uv 
 |--- uv.lock                        # Bloqueo de versiones de dependencias 
-|--- main.py                        # Script principal 
 |--- README.md                      # Documentación del proyecto
 ```
