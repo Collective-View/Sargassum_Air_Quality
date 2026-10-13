@@ -26,6 +26,9 @@ SAQ/
 |     |--- 20261011_Chetumal      # Carpeta de almacenamiento de datos
 |           |--- data.csv           # ------> Conjunto de datos 
 |           |--- metadata.txt       # ------> Metadatos
+|     |--- 20261012_Chetumal      # Carpeta de almacenamiento de datos
+|           |--- data.csv           # ------> Conjunto de datos 
+|           |--- metadata.txt       # ------> Metadatos
 |--- src/                           # Contiene el codigo fuente del núcle del pipeline
 |     |--- meteo_data_pipeline/
 |          |--- __init.py
