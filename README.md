@@ -29,7 +29,7 @@ SAQ/
 |     |--- 20261012_Chetumal      # Carpeta de almacenamiento de datos
 |           |--- data.csv           # ------> Conjunto de datos 
 |           |--- metadata.txt       # ------> Metadatos
-|     |--- 20261012_Chetumal      # Carpeta de almacenamiento de datos
+|     |--- 20261013_Chetumal      # Carpeta de almacenamiento de datos
 |           |--- data.csv           # ------> Conjunto de datos 
 |           |--- metadata.txt       # ------> Metadatos
 |--- src/                           # Contiene el codigo fuente del núcle del pipeline
