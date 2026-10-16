@@ -1,0 +1,66 @@
+========================================================================================================================
+ DICCIONARIO DE METADATOS Y VARIABLES - ESTACIONES METEOROLÓGICAS
+========================================================================================================================
+
+Responsable de procesamiento: Luis Arturo Trejo
+Fecha de procesamiento: 16/10/2026
+Notas: Los registros no están completos hacia el final del día, debido a que la estación se quedo sin energía.
+------------------------------------------------------------------------------------------------------------------------
+Identificador          | Nombre de la variable               | Descripción
+------------------------------------------------------------------------------------------------------------------------
+time                   | Fecha y hora de la medición         | Fecha y hora de la medición
+timestamp              | Marca de tiempo del registro        | Marca de tiempo del registro de los datos
+in_temp_c              | Temperatura de interior             | Temperatura de interior (tomada por el hub)
+in_hum                 | Humedad de interior                 | Humedad de interior (tomada por el hub)
+out_temp_c             | Temperatura de exterior             | Temperatura de exterior
+out_hum                | Humedad de exterior                 | Humedad de exterior
+dew_point_c            | Punto de rocío                      | Punto de rocío
+feels_like_c           | Sensación térmica                   | Sensación térmica
+bgt_c                  | Temperatura de globo negro          | Mide la temperatura combinando el calor del aire, la radiación solar y el viento
+wbgt_c                 | Temperatura de bulbo húmedo y globo | Índice compuesto utilizado para evaluar el riesgo de golpe de calor, considera temperatura, humedad, viento y radiación
+vpd_kpa                | Déficit de presión de vapor         | Mide la diferencia entre la cantidad de humedad en el aire y el punto de saturación
+wind_ms                | Velocidad del viento                | Mide la velocidad actual o sostenida del viento en metros por segundo
+gust_ms                | Ráfaga de viento                    | Ráfaga de viento máxima registrada en el último intervalo
+wind_dir_10min_deg     | Dirección promedio del viento       | Mide la dirección promedio del viento en los últimos 10 minutos medida en grados
+wind_dir_deg           | Dirección instantánea del viento    | Mide la dirección instantánea del viento en grados (0° o 360° es norte, 90° es este)
+abs_pres_hpa           | Presión atmosférica absoluta        | Peso real del aire en el punto exacto donde está el sensor
+rel_pres_hpa           | Presión atmosférica relativa        | Presión corregida y ajustada al nivel del mar
+solar_rad_wm2          | Radiación solar                     | Radiación solar total recibida por metro cuadrado
+uv_index               | Índice de radiación UV              | Índice de radiación ultravioleta
+rain_rate_mmhr         | Intensidad de la lluvia             | Intensidad de la lluvia medida en milímetros por hora
+24h_rain_mm            | Lluvia acumulada en 24h             | Lluvia acumulada en las últimas 24 horas consecutivas
+hourly_rain_mm         | Lluvia acumulada por hora           | Lluvia acumulada por hora
+event_rain_mm          | Lluvia acumulada en el evento       | Lluvia acumulada durante el evento
+daily_rain_mm          | Lluvia acumulada en el día          | Lluvia acumulada en el día
+weekly_rain_mm         | Lluvia acumulada en la semana       | Lluvia acumulada en la semana
+monthly_rain_mm        | Lluvia acumulada en el mes          | Lluvia acumulada en el mes
+yearly_rain_mm         | Lluvia acumulada en el año          | Lluvia acumulada en el año
+tot_rain               | Historial de lluvia acumulada       | Historial de lluvia desde que se encendió el sensor
+rain_status            | Estado de la lluvia                 | Indica si está lloviendo o no
+p_rate_mmhr            | Intensidad de lluvia (Piezo)        | Variable medida por el sensor piezoeléctrico, mide el impacto físico de las gotas de agua
+p_24h_rain_mm          | Lluvia 24h (Piezo)                  | Variable medida por el sensor piezoeléctrico, mide el impacto físico de las gotas de agua
+p_hourly_rain_mm       | Lluvia por hora (Piezo)             | Variable medida por el sensor piezoeléctrico, mide el impacto físico de las gotas de agua
+p_event_rain_mm        | Lluvia por evento (Piezo)           | Variable medida por el sensor piezoeléctrico, mide el impacto físico de las gotas de agua
+p_daily_rain_mm        | Lluvia diaria (Piezo)               | Variable medida por el sensor piezoeléctrico, mide el impacto físico de las gotas de agua
+p_weekly_rain_mm       | Lluvia semanal (Piezo)              | Variable medida por el sensor piezoeléctrico, mide el impacto físico de las gotas de agua
+p_monthly_rain_mm      | Lluvia mensual (Piezo)              | Variable medida por el sensor piezoeléctrico, mide el impacto físico de las gotas de agua
+p_yearly_rain_mm       | Lluvia anual (Piezo)                | Variable medida por el sensor piezoeléctrico, mide el impacto físico de las gotas de agua
+p_total_rain_mm        | Lluvia total (Piezo)                | Variable medida por el sensor piezoeléctrico, mide el impacto físico de las gotas de agua
+p_srain                | Lluvia acumulada (Piezo subperiodo) | Lluvia acumulada en el subperiodo específico o registro específico del sensor
+a_temp_c               | Temperatura (AQIN)                  | Variable medida a través del sensor de calidad del aire
+a_hum                  | Humedad (AQIN)                      | Variable medida a través del sensor de calidad del aire
+a_co2_ppm              | Dióxido de carbono (AQIN)           | Concentración de dióxido de carbono medida en partes por millón
+a_pm2_5_ugm3           | PM2.5 (AQIN)                        | Partículas finas menores a 2.5 micras. Indicador estándar para medir contaminación por humo
+a_pm10_ugm3            | PM10 (AQIN)                         | Partículas gruesas de hasta 10 micras. Indicador de polvo, cenizas y polen
+a_pm1_ugm3             | PM1.0 (AQIN)                        | Partículas ultrafinas menores a 1 micra. Indicador de virus, bacterias y combustión
+a_pm4_ugm3             | PM4.0 (AQIN)                        | Partículas menores a 4 micras. Indicador para evaluar polvo ambiental y polen
+nh3                    | Amoníaco                            | Indicador de los niveles de amoníaco
+temp_nh3               | Temperatura                         | Temperatura medida por el sensor de amoníaco
+hum_nh3                | Humedad                             | Humedad medida por el sensor de amoníaco
+h2s                    | Ácido sulfhídrico                   | Indicador de los niveles de ácido sulfhídrico
+o2                     | Oxígeno                             | Indicador de los niveles de oxígeno
+co                     | Monóxido de carbono                 | Indicador de los niveles de monóxido de carbono
+lel                    | Limite inferior de explosividad     | Indicador de la concentración de un gas combustible
+
+========================================================================================================================
+ Versión 1.2

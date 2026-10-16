@@ -3,7 +3,7 @@
 ========================================================================================================================
 
 Responsable de procesamiento: Luis Arturo Trejo
-Fecha de procesamiento: 14/10/2026
+Fecha de procesamiento: 15/10/2026
 Notas: Los registros no están completos hacia el final del día, debido a que la estación se quedo sin energía.
 ------------------------------------------------------------------------------------------------------------------------
 Identificador          | Nombre de la variable               | Descripción
