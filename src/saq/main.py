@@ -32,9 +32,9 @@ def procesar_estacion(ruta_base: str, ruta_secundaria: str) -> pd. DataFrame:
     df_final = pd.merge(df_base, df_filter, on=columna_union, how='left')
 
     # Paso 4: Añadir las variables vacías estándar para sensores adicionales 
-    nuevas_var = ['amon', 'H2S', 'CO']
-    for varibale in nuevas_var:
-        df_final[varibale] = np.nan
+    #nuevas_var = ['amon', 'H2S', 'CO']
+    #for varibale in nuevas_var:
+    #    df_final[varibale] = np.nan
 
     return df_final
 
@@ -62,8 +62,8 @@ def renom_colms (df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     'Indoor Humidity(%)' : 'in_hum',
     'Outdoor Temperature(°C)' : 'out_temp_c',
     'Outdoor Humidity(%)' : 'out_hum',
-    'Dew Point(°C)' : 'dew_point_c',
-    'Feels Like(°C)' : 'feels_like_c',
+    'Dew Point(°C)' : 'out_dew_point_c',
+    'Feels Like(°C)' : 'out_feels_like_c',
     'BGT(°C)' : 'bgt_c',
     'WBGT(°C)' : 'wbgt_c',
     'VPD(kPa)' : 'vpd_kpa',
@@ -104,11 +104,11 @@ def renom_colms (df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     'AQIN PM4.0(ug/m3)' : 'a_pm4_ugm3',
     'amon' : 'nh3',
     'temp_amon': 'temp_nh3',
-    'hum_amon': 'hum_nh3',
-    'H2S' : 'h2s',
-    'O2': 'o2',
-    'CO' : 'co',
-    'LEL': 'lel'
+    'hum_amon': 'hum_nh3'#,
+    #'H2S' : 'h2s',
+    #'O2': 'o2',
+    #'CO' : 'co',
+    #'LEL': 'lel'
     }
 
     #Se crea el remplazo solo para las columnas 
@@ -156,8 +156,8 @@ def generar_meta(remplazo: dict, ruta_salida: str):
         'in_hum': ("Humedad de interior", "Humedad de interior (tomada por el hub)"),
         'out_temp_c': ("Temperatura de exterior", "Temperatura de exterior"),
         'out_hum': ("Humedad de exterior", "Humedad de exterior"),
-        'dew_point_c': ("Punto de rocío", "Punto de rocío"),
-        'feels_like_c': ("Sensación térmica", "Sensación térmica"),
+        'out_dew_point_c': ("Punto de rocío", "Punto de rocío"),
+        'out_feels_like_c': ("Sensación térmica", "Sensación térmica"),
         'bgt_c': ("Temperatura de globo negro", "Mide la temperatura combinando el calor del aire, la radiación solar y el viento"),
         'wbgt_c': ("Temperatura de bulbo húmedo y globo", "Índice compuesto utilizado para evaluar el riesgo de golpe de calor, considera temperatura, humedad, viento y radiación"),
         'vpd_kpa': ("Déficit de presión de vapor", "Mide la diferencia entre la cantidad de humedad en el aire y el punto de saturación"),
@@ -235,26 +235,26 @@ def main():
     print( "--- Inicio de procesamiento de estaciones ---")
 
     #Directorio de las bases de datos de las estaciones
-    base_dir = Path("C:/Users/LuisA/Documents/Datos/pruebas_proyecto")
+    base_dir = Path("C:/Users/LuisA/Documents/Datos/Salida_campo_1_2026")
     dir_final = Path("data")
 
     #Definimos las rutas para las 3 estaciones 
     estaciones = {
         "Estación 1":{
-            "base": base_dir/ "est_1/202609B.csv",
-            "secundario": base_dir/ "est_1/202609Allsensors_B.csv",
+            "base": base_dir/ "hub_1/202412C.csv",
+            "secundario": base_dir/ "hub_1/202412Allsensors_C.csv",
             "id": 1
 
         },
         "Estación 2":{
-            "base": base_dir/ "est_2/202609B.csv",
-            "secundario": base_dir/ "est_1/202609Allsensors_B.csv",
+            "base": base_dir/ "hub_2/202412C.csv",
+            "secundario": base_dir/ "hub_2/202412Allsensors_C.csv",
             "id": 2
 
         },
         "Estación 3":{
-            "base": base_dir/ "est_3/202609B.csv",
-            "secundario": base_dir/ "est_1/202609Allsensors_B.csv",
+            "base": base_dir/ "hub_3/202412B.csv",
+            "secundario": base_dir/ "hub_3/202412Allsensors_B.csv",
             "id":3
         }
     }
@@ -289,7 +289,7 @@ def main():
 
         nombre_archivo_csv = "data.csv"
         nombre_metadato = "metadata.txt"
-        nom_carp = "20261007_chetumal"  #-----------> Cambiar cada que se procese los datos
+        nom_carp = "20261030_mahahual"  #-----------> Cambiar cada que se procese los datos
 
         carp_dir = dir_final/ nom_carp
         carp_dir.mkdir(parents=True, exist_ok=True)
