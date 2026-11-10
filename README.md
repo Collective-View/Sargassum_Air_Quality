@@ -65,47 +65,38 @@ SAQ/
 |     |--- 20261030_id1_mahahual     # Carpeta de almacenamiento de datos
 |     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- gases.csv          # ------> Datos de los sensores de gases  
-|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire 
 |     |      |--- metadata.txt       # ------> Metadatos
 |     |--- 20261030_id2_mahahual     # Carpeta de almacenamiento de datos
 |     |      |--- data.csv           # ------> Datos de la estación metereologica
-|     |      |--- gases.csv          # ------> Datos de los sensores de gases
-|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire   
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases 
 |     |      |--- metadata.txt       # ------> Metadatos
 |     |--- 20261030_id3_mahahual     # Carpeta de almacenamiento de datos
 |     |      |--- data.csv           # ------> Datos de la estación metereologica
-|     |      |--- gases.csv          # ------> Datos de los sensores de gases
-|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire     
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases   
 |     |      |--- metadata.txt       # ------> Metadatos
 |     |--- 20261103_id1_mahahual     # Carpeta de almacenamiento de datos
 |     |      |--- data.csv           # ------> Datos de la estación metereologica
-|     |      |--- gases.csv          # ------> Datos de los sensores de gases
-|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire     
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases     
 |     |      |--- metadata.txt       # ------> Metadatos
 |     |--- 20261103_id2_mahahual     # Carpeta de almacenamiento de datos
 |     |      |--- data.csv           # ------> Datos de la estacioón metereologica
-|     |      |--- gases.csv          # ------> Datos de los sensores de gases
-|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire     
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases    
 |     |      |--- metadata.txt       # ------> Metadatos
 |     |--- 20261103_id3_mahahual     # Carpeta de almacenamiento de datos
 |     |      |--- data.csv           # ------> Datos de la estación metereologica
-|     |      |--- gases.csv          # ------> Datos de los sensores de gases
-|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire     
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases    
 |     |      |--- metadata.txt       # ------> Metadatos
 |     |--- 20261106_id1_mahahual     # Carpeta de almacenamiento de datos
 |     |      |--- data.csv           # ------> Datos de la estación metereologica
-|     |      |--- gases.csv          # ------> Datos de los sensores de gases 
-|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire    
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases    
 |     |      |--- metadata.txt       # ------> Metadatos
 |     |--- 20261106_id2_mahahual     # Carpeta de almacenamiento de datos
 |     |      |--- data.csv           # ------> Datos de la estación metereologica
-|     |      |--- gases.csv          # ------> Datos de los sensores de gases
-|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire     
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases   
 |     |      |--- metadata.txt       # ------> Metadatos
 |     |--- 20261106_id3_mahahual     # Carpeta de almacenamiento de datos
 |     |      |--- data.csv           # ------> Datos de la estación metereologica
-|     |      |--- gases.csv          # ------> Datos de los sensores de gases
-|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire     
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases     
 |     |      |--- metadata.txt       # ------> Metadatos
 
 |--- src/                           # Contiene el codigo fuente del núcleo del pipeline
