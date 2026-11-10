@@ -210,7 +210,11 @@ def generar_meta(remplazo: dict, ruta_salida: str):
         f.write("=" * 120 + "\n")
         f.write(" DICCIONARIO DE METADATOS Y VARIABLES - ESTACIONES METEOROLÓGICAS\n")
         f.write("=" * 120 + "\n\n")
-        f.write(f"Responsable de procesamiento: Luis Arturo Trejo\n")
+        f.write(f"Responsable de procesamiento: Luis Arturo Trejo Morales\n")
+        f.write("-" * 120 + "\n")
+        f.write(f"Fecha de captura de datos: \n")
+        f.write("-" * 120 + "\n")
+        f.write(f"Fecha de procesamiento: \n")
         f.write("-" * 120 + "\n")
         f.write(f"{'Identificador ':<22} | {'Nombre de la variable':<35} | {'Descripción'}\n")
         f.write("-" * 120 + "\n")
@@ -222,7 +226,7 @@ def generar_meta(remplazo: dict, ruta_salida: str):
             f.write(f"{nuevo:<22} | {nombre_var:<35} | {descripcion}\n")
             
         f.write("\n" + "=" * 120 + "\n")
-        f.write(" Versión 1.0\n")
+        f.write(" Versión 1.3\n")
         
     print(f"-> Archivo de metadatos detallado guardado en: {ruta_salida}")
 

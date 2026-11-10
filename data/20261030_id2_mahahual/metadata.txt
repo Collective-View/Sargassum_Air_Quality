@@ -3,6 +3,10 @@
 ========================================================================================================================
 
 Responsable de procesamiento: Luis Arturo Trejo
+Fecha de captura: 30-10-2026
+Fecha de procesamiento: 05-11-2026
+------------------------------------------------------------------------------------------------------------------------
+                         Estación meteorológica
 ------------------------------------------------------------------------------------------------------------------------
 Identificador          | Nombre de la variable               | Descripción
 ------------------------------------------------------------------------------------------------------------------------
@@ -45,6 +49,11 @@ p_monthly_rain_mm      | Lluvia mensual (Piezo)              | Variable medida p
 p_yearly_rain_mm       | Lluvia anual (Piezo)                | Variable medida por el sensor piezoeléctrico, mide el impacto físico de las gotas de agua
 p_total_rain_mm        | Lluvia total (Piezo)                | Variable medida por el sensor piezoeléctrico, mide el impacto físico de las gotas de agua
 p_srain                | Lluvia acumulada (Piezo subperiodo) | Lluvia acumulada en el subperiodo específico o registro específico del sensor
+------------------------------------------------------------------------------------------------------------------------
+                         Calidad del aire
+------------------------------------------------------------------------------------------------------------------------
+Identificador          | Nombre de la variable               | Descripción
+------------------------------------------------------------------------------------------------------------------------
 a_temp_c               | Temperatura (AQIN)                  | Variable medida a través del sensor de calidad del aire
 a_hum                  | Humedad (AQIN)                      | Variable medida a través del sensor de calidad del aire
 a_co2_ppm              | Dióxido de carbono (AQIN)           | Concentración de dióxido de carbono medida en partes por millón
@@ -52,6 +61,19 @@ a_pm2_5_ugm3           | PM2.5 (AQIN)                        | Partículas finas
 a_pm10_ugm3            | PM10 (AQIN)                         | Partículas gruesas de hasta 10 micras. Indicador de polvo, cenizas y polen
 a_pm1_ugm3             | PM1.0 (AQIN)                        | Partículas ultrafinas menores a 1 micra. Indicador de virus, bacterias y combustión
 a_pm4_ugm3             | PM4.0 (AQIN)                        | Partículas menores a 4 micras. Indicador para evaluar polvo ambiental y polen
+------------------------------------------------------------------------------------------------------------------------
+                         Gases
+------------------------------------------------------------------------------------------------------------------------
+Identificador          | Nombre de la variable               | Descripción
+------------------------------------------------------------------------------------------------------------------------
+amon                    | Amoníaco                            | Indicador de los niveles de amoníaco
+temp_f                 | Temperatura                         | Temperatura medida por el sensor de amoníaco
+temp_c                 | Temperatura    		     | Conversión de temperatura de °F a °C
+hum                    | Humedad                             | Humedad medida por el sensor de amoníaco
+h2s                    | Ácido sulfhídrico                   | Indicador de los niveles de ácido sulfhídrico
+o2                     | Oxígeno                             | Indicador de los niveles de oxígeno
+co                     | Monóxido de carbono                 | Indicador de los niveles de monóxido de carbono
+lel                    | Limite inferior de explosividad     | Indicador de la concentración de un gas combustible
 
 ========================================================================================================================
- Versión 1.0
+ Versión 1.3

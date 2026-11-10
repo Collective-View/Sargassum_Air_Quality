@@ -102,13 +102,13 @@ def renom_colms (df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     'AQIN PM10(ug/m3)' : 'a_pm10_ugm3',
     'AQIN PM1.0(ug/m3)' : 'a_pm1_ugm3',
     'AQIN PM4.0(ug/m3)' : 'a_pm4_ugm3',
-    #'amon' : 'nh3',
-    #'temp_amon': 'temp_nh3',
-    #'hum_amon': 'hum_nh3'#,
-    #'H2S' : 'h2s',
-    #'O2': 'o2',
-    #'CO' : 'co',
-    #'LEL': 'lel'
+    'amon' : 'nh3',
+    'temp_amon': 'temp_nh3',
+    'hum_amon': 'hum_nh3',
+    'H2S' : 'h2s',
+    'O2': 'o2',
+    'CO' : 'co',
+    'LEL': 'lel'
     }
 
     #Se crea el remplazo solo para las columnas 
@@ -222,7 +222,7 @@ def generar_meta(remplazo: dict, ruta_salida: str):
             f.write(f"{nuevo:<22} | {nombre_var:<35} | {descripcion}\n")
             
         f.write("\n" + "=" * 120 + "\n")
-        f.write(" Versión 1.0\n")
+        f.write(" Versión 1.3\n")
         
     print(f"-> Archivo de metadatos detallado guardado en: {ruta_salida}")
 
@@ -235,36 +235,36 @@ def main():
     print( "--- Inicio de procesamiento de estaciones ---")
 
     #Directorio de las bases de datos de las estaciones
-    base_dir = Path("C:/Users/LuisA/Documents/Datos/Salida_campo_1_2026")
+    base_dir = Path("C:/Users/LuisA/Documents/Datos/Salida_campo_3_2026")
     dir_final = Path("C:/Users/LuisA/Documents/Codigos/herramientas/SAQ/data")
 
     # Variables dinamicas de información de muestro, OJO se modifican por cada archivo generado
-    fecha_muestreo = "20261030" #Cambiar cada que se generen datos en campo
-    lugar_muestreo = "mahahual" #Cambiar segun el sitio de muestreo 
+    fecha_muestreo = "20261106" #Cambiar cada que se generen datos en campo
+    lugar_muestreo = "mahahual_1" #Cambiar segun el sitio de muestreo 
 
 
 
     #Definimos las rutas para las 3 estaciones 
     estaciones = {
         "Estación 1":{
-            "base": base_dir/ "hub_1/202412C.csv",
-            "secundario": base_dir/ "hub_1/202412Allsensors_C.csv",
+            "base": base_dir/ "hub_1/202412C_b.csv",
+            "secundario": base_dir/ "hub_1/202412Allsensors_C_b.csv",
             "id": 1,
-            "inicio_real": "2026-10-30 10:43:00"
+            "inicio_real": "2026-11-06 09:45:00"
 
         },
         "Estación 2":{
-            "base": base_dir/ "hub_2/202412C.csv",
-            "secundario": base_dir/ "hub_2/202412Allsensors_C.csv",
+            "base": base_dir/ "hub_2/202412C_b.csv",
+            "secundario": base_dir/ "hub_2/202412Allsensors_C_b.csv",
             "id": 2,
-            "inicio_real": "2026-10-30 10:30:00"
+            "inicio_real": "2026-11-06 09:56:00"
 
         },
         "Estación 3":{
-            "base": base_dir/ "hub_3/202412B.csv",
-            "secundario": base_dir/ "hub_3/202412Allsensors_B.csv",
+            "base": base_dir/ "hub_3/202412B_b.csv",
+            "secundario": base_dir/ "hub_3/202412Allsensors_B_b.csv",
             "id":3,
-            "inicio_real": "2026-10-30 10:17:00"
+            "inicio_real": "2026-11-06 10:15:00"
         }
     }
     

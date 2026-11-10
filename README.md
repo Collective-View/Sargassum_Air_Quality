@@ -11,83 +11,104 @@ SAQ/
 |--- docs/
 |     |--- Manual_uv.pdf
 |--- data/                          # Almacenamiento de resultados y metadatos 
-|     |--- 20261007_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos 
+|     |--- 20261007_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica 
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261008_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos
+|     |--- 20261008_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261009_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos 
-|     |     |--- metadata.txt       # ------> Metadatos
-|     |--- 20261010_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos
+|     |--- 20261009_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |     |--- metadata.txt        # ------> Metadatos
+|     |--- 20261010_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261011_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos 
+|     |--- 20261011_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261012_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos
+|     |--- 20261012_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261013_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos 
+|     |--- 20261013_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica 
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261014_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos 
+|     |--- 20261014_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261015_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos 
+|     |--- 20261015_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261016_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos
+|     |--- 20261016_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261017_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos
+|     |--- 20261017_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261018_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos
+|     |--- 20261018_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261019_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos
+|     |--- 20261019_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261020_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos
+|     |--- 20261020_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261021_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos 
+|     |--- 20261021_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261022_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos 
+|     |--- 20261022_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261023_id1_Chetumal      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos 
+|     |--- 20261023_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261030_id1_mahahual      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos
-|     |      |--- gases.csv          # ------> Datos de los sensores de bases  
+|     |--- 20261030_id1_mahahual     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases  
+|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire 
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261030_id2_mahahual      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos
-|     |      |--- gases.csv          # ------> Datos de los sensores de bases  
+|     |--- 20261030_id2_mahahual     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases
+|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire   
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261030_id3_mahahual      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos
-|     |      |--- gases.csv          # ------> Datos de los sensores de bases  
+|     |--- 20261030_id3_mahahual     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases
+|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire     
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261103_id1_mahahual      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos
-|     |      |--- gases.csv          # ------> Datos de los sensores de bases  
+|     |--- 20261103_id1_mahahual     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases
+|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire     
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261103_id2_mahahual      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos
-|     |      |--- gases.csv          # ------> Datos de los sensores de bases  
+|     |--- 20261103_id2_mahahual     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estacioón metereologica
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases
+|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire     
 |     |      |--- metadata.txt       # ------> Metadatos
-|     |--- 20261103_id3_mahahual      # Carpeta de almacenamiento de datos
-|     |      |--- data.csv           # ------> Datos de los sensores metereologicos
-|     |      |--- gases.csv          # ------> Datos de los sensores de bases  
+|     |--- 20261103_id3_mahahual     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases
+|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire     
+|     |      |--- metadata.txt       # ------> Metadatos
+|     |--- 20261106_id1_mahahual     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases 
+|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire    
+|     |      |--- metadata.txt       # ------> Metadatos
+|     |--- 20261106_id2_mahahual     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases
+|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire     
+|     |      |--- metadata.txt       # ------> Metadatos
+|     |--- 20261106_id3_mahahual     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |      |--- gases.csv          # ------> Datos de los sensores de gases
+|     |      |--- qual_air.csv       # ------> Datos del sensor de calidad de aire     
 |     |      |--- metadata.txt       # ------> Metadatos
 
-|--- src/                           # Contiene el codigo fuente del núcle del pipeline
+|--- src/                           # Contiene el codigo fuente del núcleo del pipeline
 |     |--- meteo_data_pipeline/
 |          |--- __init.py
 |          |--- main.py            # Script principal 
