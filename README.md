@@ -98,7 +98,24 @@ SAQ/
 |     |      |--- data.csv           # ------> Datos de la estación metereologica
 |     |      |--- gases.csv          # ------> Datos de los sensores de gases     
 |     |      |--- metadata.txt       # ------> Metadatos
-
+|     |--- 20261111_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |      |--- metadata.txt       # ------> Metadatos
+|     |--- 20261112_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |      |--- metadata.txt       # ------> Metadatos
+|     |--- 20261113_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |      |--- metadata.txt       # ------> Metadatos
+|     |--- 20261114_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |      |--- metadata.txt       # ------> Metadatos
+|     |--- 20261115_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |      |--- metadata.txt       # ------> Metadatos
+|     |--- 20261116_id1_Chetumal     # Carpeta de almacenamiento de datos
+|     |      |--- data.csv           # ------> Datos de la estación metereologica
+|     |      |--- metadata.txt       # ------> Metadatos
 |--- src/                           # Contiene el codigo fuente del núcleo del pipeline
 |     |--- meteo_data_pipeline/
 |          |--- __init.py
