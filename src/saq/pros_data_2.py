@@ -288,7 +288,7 @@ def main():
     dir_final = Path("C:/Users/LuisA/Documents/Codigos/herramientas/SAQ/data")
 
     # Variables dinamicas de información de muestro, OJO se modifican por cada archivo generado
-    fecha_muestreo = "20261111" #Cambiar cada que se generen datos en campo
+    fecha_muestreo = "20261116" #Cambiar cada que se generen datos en campo
     lugar_muestreo = "Chetumal" #Cambiar segun el sitio de muestreo 
 
 
@@ -296,10 +296,10 @@ def main():
     #Definimos las rutas para las 3 estaciones 
     estaciones = {
         "Estación 1":{
-            "base": base_dir/ "datos_11_11.csv",
+            "base": base_dir/ "data_16.csv",
             #"secundario": base_dir/ "hub_1/202412Allsensors_C_b.csv",
             "id": 1,
-            "inicio_real": "2026-11-11 00:00:00"
+            "inicio_real": "2026-11-16 00:00:00"
 
         },
         #"Estación 2":{
